@@ -1,32 +1,67 @@
-Validate the following telecom bill data for accuracy and completeness. Check for:
+Analyze the provided JSON data for a telecom bill, focusing on essential data presence and format validation. The data will be structured as follows:
 
-1. Required fields:
-   - Account number(s) must be present and in the correct format (alphanumeric)
-   - Invoice date must be present and in a valid date format
-   - Total due must be present and in a valid currency format
+For MLB (Multi-Location Bill):
+master_account:
+  - account_number (required): The master account identifier
+  - total_due (required): The total amount due
+  - due_date (required): The bill's due date
+  - vendor_name (required): The telecom service provider name
+  - invoice_date: The bill's issue date
+  - invoice_id: The bill's unique identifier
+  - customer_name: The customer's name
+  - customer_address: The service address
 
-2. Consistency checks:
-   - For MLB bills: The master account total should be consistent with the sum of sub-account totals (if both are provided)
-   - Line item totals should be consistent with their component charges
-   - All currency values should be properly formatted (e.g., "$123.45")
+sub_accounts (array):
+  Each sub-account must have:
+  - sub_account_number (required): The sub-account identifier
+  - total_due (required): Amount due for this sub-account
+  Optional fields:
+  - location: Service location
+  - line_items: Array of charges and fees
 
-3. Completeness:
-   - All required fields should be populated
-   - No missing line items or accounts
+Validation Requirements:
+1. Required Fields Check:
+   - Verify presence of all required fields
+   - Missing required fields should be reported as errors
 
-Analyze the provided JSON data and return a validation result in this format:
+2. Data Format Validation:
+   - Amounts: Must be valid numbers (with or without $ and commas)
+   - Dates: Must be recognizable as dates in any standard format
+   - Account numbers: Must be non-empty strings
+
+3. Totals Analysis:
+   - Compare master_account total_due with sum of sub-account totals
+   - Note any discrepancies (but don't fail validation for small differences)
+
+Return the validation results in this JSON format:
 {
-  "valid": true/false,
+  "valid": true/false,  // true if all required fields present and properly formatted
   "errors": [
     {
       "field": "path.to.field",
       "error": "Description of the error"
     }
   ],
-  "warnings": [
+  "notes": [
     {
-      "field": "path.to.field",
-      "warning": "Description of the warning"
+      "field": "relevant.field",
+      "note": "Observation about the data"
     }
   ]
-} 
+}
+
+Validation Rules:
+- Mark as invalid only if:
+  1. Required fields are missing
+  2. Numbers/dates are in invalid formats
+  3. No sub-accounts are present
+
+- Add notes (but don't fail validation) for:
+  1. Missing optional fields
+  2. Small discrepancies in totals (within ±$0.02)
+  3. Unusual patterns or potential issues
+  4. Negative amounts
+  5. Duplicate account numbers
+
+Focus on data integrity rather than strict formatting. The goal is to ensure we have the minimum required data to process the bill, in a usable format.
+

@@ -9,12 +9,56 @@ import os
 import json
 import logging
 import time
-from typing import Dict, Any, List, Optional
+from typing import Dict, Any, List, Optional, Tuple
 from openai import AzureOpenAI
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+
+def validate_mlb_totals(data: Dict[str, Any]) -> Tuple[bool, float, float, List[Dict[str, str]]]:
+    """
+    Validate MLB totals by comparing master account total with sum of sub-account totals.
+    
+    Args:
+        data: The extracted MLB data.
+        
+    Returns:
+        Tuple of (is_valid: bool, master_total: float, sub_total: float, errors: List[Dict[str, str]])
+    """
+    errors = []
+    try:
+        # Get master account total
+        master_total = float(data.get('master_account', {}).get('total_due', '0').replace('$', '').replace(',', ''))
+        
+        # Sum sub-account totals
+        sub_total = 0.0
+        for sub_account in data.get('sub_accounts', []):
+            try:
+                sub_total += float(sub_account.get('total_due', '0').replace('$', '').replace(',', ''))
+            except ValueError as e:
+                errors.append({
+                    'field': f'sub_accounts[{sub_account.get("sub_account_number", "Unknown")}].total_due',
+                    'error': f'Invalid sub-account total: {sub_account.get("total_due")}'
+                })
+        
+        # Check if totals match within $0.02 tolerance
+        is_valid = abs(master_total - sub_total) <= 0.02
+        
+        if not is_valid:
+            errors.append({
+                'field': 'master_account.total_due',
+                'error': f'Master total (${master_total:.2f}) does not match sum of sub-account totals (${sub_total:.2f})'
+            })
+        
+        return is_valid, master_total, sub_total, errors
+    
+    except ValueError as e:
+        errors.append({
+            'field': 'master_account.total_due',
+            'error': f'Invalid master account total: {data.get("master_account", {}).get("total_due")}'
+        })
+        return False, 0.0, 0.0, errors
 
 def validate_data(
     data: Dict[str, Any],
@@ -25,92 +69,128 @@ def validate_data(
     deployment_name: Optional[str] = None
 ) -> Dict[str, Any]:
     """
-    Validate extracted bill data using OpenAI.
+    Validate extracted bill data focusing on essential fields and data quality.
     
     Args:
         data: The extracted bill data to validate.
         bill_type: The type of bill (SLB or MLB).
         prompt_file: Path to the validation prompt file.
-        openai_endpoint: Azure OpenAI endpoint. If None, uses environment variable.
-        openai_api_key: Azure OpenAI API key. If None, uses environment variable.
-        deployment_name: Azure OpenAI deployment name. If None, uses environment variable.
+        openai_endpoint: Azure OpenAI endpoint.
+        openai_api_key: Azure OpenAI API key.
+        deployment_name: Azure OpenAI deployment name.
         
     Returns:
-        Dict with validation results including 'valid' flag and any errors.
-        
-    Raises:
-        FileNotFoundError: If the prompt file does not exist.
-        ValueError: If OpenAI credentials are missing.
-        Exception: For other errors during validation.
+        Dict with validation results including 'valid' flag, errors, and notes.
     """
+    errors = []
+    notes = []
+    
     try:
-        logger.info(f"Validating {bill_type} bill data")
+        if bill_type == "MLB":
+            # Validate master account required fields
+            master_account = data.get('master_account', {})
+            required_master_fields = {
+                'account_number': 'Account number',
+                'total_due': 'Amount due',
+                'due_date': 'Due date',
+                'vendor_name': 'Vendor name'
+            }
+            
+            for field, display_name in required_master_fields.items():
+                if not master_account.get(field):
+                    errors.append({
+                        'field': f'master_account.{field}',
+                        'error': f'Missing required field: {display_name}'
+                    })
+            
+            # Validate data types and formats
+            if master_account.get('total_due'):
+                try:
+                    amount = float(str(master_account['total_due']).replace('$', '').replace(',', ''))
+                    if amount < 0:
+                        notes.append({
+                            'field': 'master_account.total_due',
+                            'note': f'Negative total due amount: ${amount:.2f}'
+                        })
+                except ValueError:
+                    errors.append({
+                        'field': 'master_account.total_due',
+                        'error': f'Invalid amount format: {master_account["total_due"]}'
+                    })
+            
+            if master_account.get('due_date'):
+                try:
+                    # Try parsing the date in various formats
+                    from dateutil import parser
+                    parser.parse(str(master_account['due_date']))
+                except ValueError:
+                    errors.append({
+                        'field': 'master_account.due_date',
+                        'error': f'Invalid date format: {master_account["due_date"]}'
+                    })
+            
+            # Validate sub-accounts
+            sub_accounts = data.get('sub_accounts', [])
+            if not sub_accounts:
+                errors.append({
+                    'field': 'sub_accounts',
+                    'error': 'No sub-accounts found'
+                })
+            else:
+                for i, sub_account in enumerate(sub_accounts):
+                    # Check required sub-account fields
+                    if not sub_account.get('sub_account_number'):
+                        errors.append({
+                            'field': f'sub_accounts[{i}].sub_account_number',
+                            'error': 'Missing sub-account number'
+                        })
+                    
+                    if not sub_account.get('total_due'):
+                        errors.append({
+                            'field': f'sub_accounts[{i}].total_due',
+                            'error': 'Missing total due amount'
+                        })
+                    else:
+                        try:
+                            float(str(sub_account['total_due']).replace('$', '').replace(',', ''))
+                        except ValueError:
+                            errors.append({
+                                'field': f'sub_accounts[{i}].total_due',
+                                'error': f'Invalid amount format: {sub_account["total_due"]}'
+                            })
+            
+            # Calculate and verify totals
+            if not errors:
+                master_total = float(str(master_account['total_due']).replace('$', '').replace(',', ''))
+                sub_total = sum(
+                    float(str(sub['total_due']).replace('$', '').replace(',', ''))
+                    for sub in sub_accounts
+                )
+                
+                if abs(master_total - sub_total) > 0.02:  # Allow for rounding differences
+                    notes.append({
+                        'field': 'totals',
+                        'note': f'Total mismatch: Master total ${master_total:.2f} vs. Sub-accounts total ${sub_total:.2f}'
+                    })
         
-        # Check if prompt file exists
-        if not os.path.exists(prompt_file):
-            raise FileNotFoundError(f"Prompt file not found: {prompt_file}")
-        
-        # Use environment variables if not provided
-        if openai_endpoint is None:
-            openai_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
-            if not openai_endpoint:
-                raise ValueError("OpenAI endpoint not provided and not found in environment variables")
-        
-        if openai_api_key is None:
-            openai_api_key = os.getenv("AZURE_OPENAI_API_KEY")
-            if not openai_api_key:
-                raise ValueError("OpenAI API key not provided and not found in environment variables")
-        
-        if deployment_name is None:
-            deployment_name = os.getenv("DEPLOYMENT_NAME")
-            if not deployment_name:
-                raise ValueError("OpenAI deployment name not provided and not found in environment variables")
-        
-        # Initialize the OpenAI client
-        client = AzureOpenAI(
-            azure_endpoint=openai_endpoint,
-            api_key=openai_api_key,
-            api_version="2024-02-01"
-        )
-        
-        # Read the validation prompt
-        with open(prompt_file, "r", encoding="utf-8") as file:
-            prompt_base = file.read().strip()
-        
-        # Prepare the prompt with bill type and data
-        prompt = f"{prompt_base}\n\nBill Type: {bill_type}\n\nData to validate:\n{json.dumps(data, indent=2)}"
-        
-        # Request validation from OpenAI
-        logger.info("Requesting validation from Azure OpenAI")
-        start_time = time.time()
-        
-        response = client.chat.completions.create(
-            model=deployment_name,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.0,
-            response_format={"type": "json_object"}
-        )
-        
-        end_time = time.time()
-        logger.info(f"Validation response received in {end_time - start_time:.2f} seconds")
-        
-        # Parse the response
-        validation_result = json.loads(response.choices[0].message.content)
-        
-        # Log validation result
-        if validation_result.get('valid', False):
-            logger.info("Validation passed")
-        else:
-            errors = validation_result.get('errors', [])
-            logger.warning(f"Validation failed with {len(errors)} errors")
-            for error in errors:
-                logger.warning(f"Error in {error.get('field')}: {error.get('error')}")
-        
-        return validation_result
+        # Return validation results
+        return {
+            'valid': len(errors) == 0,
+            'errors': errors,
+            'notes': notes
+        }
     
     except Exception as e:
         logger.error(f"Error validating data: {str(e)}")
-        raise
+        errors.append({
+            'field': 'general',
+            'error': f'Validation error: {str(e)}'
+        })
+        return {
+            'valid': False,
+            'errors': errors,
+            'notes': notes
+        }
 
 def perform_basic_validation(data: Dict[str, Any], bill_type: str) -> Dict[str, Any]:
     """

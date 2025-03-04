@@ -152,14 +152,19 @@ def process_document(document_path: str) -> Dict[str, Any]:
     print_extracted_fields(analysis_result_invoice)
     
     analysis_raw_file = os.path.join(output_dir, f"{document_name}_analysis_invoice_raw.json")
-    try:
-        raw_dict = raw_result_invoice.as_dict() if hasattr(raw_result_invoice, 'as_dict') else raw_result_invoice.__dict__
-        with open(analysis_raw_file, 'w') as f:
-            json.dump(serialize_dates(raw_dict), f, indent=2)
-        print(f"Step 1 Raw API Response: Written to {analysis_raw_file}")
-    except Exception as e:
-        logger.warning(f"Could not serialize raw API response: {str(e)}")
-        print(f"Step 1 Raw API Response: Error: {str(e)}")
+    with open(analysis_raw_file, 'w') as f:
+        json.dump(serialize_dates(analysis_result_invoice), f, indent=2)
+    print(f"Step 1 Raw API Response: Written to {analysis_raw_file}")
+
+    # Extract master account data from analysis_result_invoice
+    fields = analysis_result_invoice.get('fields', {})
+    master_account = {
+        'account_number': fields.get('CustomerId'),
+        'total_due': str(fields.get('AmountDue')),  # Assuming AmountDue is numeric, convert to string for consistency
+        'due_date': fields.get('DueDate'),
+        'vendor_name': fields.get('VendorName'),
+        # Add other fields as needed
+    }
 
     # Step 2: Determine bill type
     print("\nStep 2: Determining bill type")
@@ -190,19 +195,24 @@ def process_document(document_path: str) -> Dict[str, Any]:
         print_slb_data(extracted_data)
         extracted_file = os.path.join(output_dir, f"{document_name}_extracted_raw.json")
         with open(extracted_file, 'w') as f:
-            json.dump(extracted_data, f, indent=2)
+            json.dump(serialize_dates(extracted_data), f, indent=2)
         print(f"Step 3 Raw API Response: Written to {extracted_file}")
     else:  # MLB
         # Second analysis with prebuilt-layout for MLB
         print("\nStep 3: Analyzing document with prebuilt-layout for MLB")
         raw_result_layout, analysis_result_layout = analyze_document(document_path, model="prebuilt-layout")
         print("Step 3: Completed layout analysis")
-        extracted_data = process_mlb(analysis_result_layout, document_name, prompt_file="telecom_prompt.txt")
+        extracted_data = process_mlb(
+            analysis_result_layout,
+            master_account,
+            document_name,
+            prompt_file="telecom_prompt.txt"
+        )
         print("Step 3: Completed MLB processing")
         print_mlb_data(extracted_data)
         extracted_file = os.path.join(output_dir, f"{document_name}_extracted.json")
         with open(extracted_file, 'w') as f:
-            json.dump(extracted_data, f, indent=2)
+            json.dump(serialize_dates(extracted_data), f, indent=2)
         print(f"Step 3 Parsed Result: Written to {extracted_file}")
 
     # Step 4: Validate data
@@ -225,7 +235,7 @@ def process_document(document_path: str) -> Dict[str, Any]:
     print("=" * 50)
     validation_raw_file = os.path.join(output_dir, f"{document_name}_validation_raw.json")
     with open(validation_raw_file, 'w') as f:
-        json.dump(validation_result, f, indent=2)
+        json.dump(serialize_dates(validation_result), f, indent=2)
     print(f"Step 4 Raw API Response: Written to {validation_raw_file}")
 
     # Step 5: Archive bill
