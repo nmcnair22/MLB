@@ -1,0 +1,38 @@
+Extract the following information from the telecom bill document:
+
+1. Account details:
+   - Account number
+   - Invoice date
+   - Total due
+
+2. Line items:
+   - Description
+   - Date range
+   - Prorated charges
+   - Recurring charges
+   - One time charges
+   - Adjustments and surcharges
+   - Taxes, fees
+   - Total
+
+Format the output as JSON with the structure provided below:
+
+{
+  "account": {
+    "account_number": "",
+    "invoice_date": "",
+    "total_due": ""
+  },
+  "line_items": [
+    {
+      "description": "",
+      "date_range": "",
+      "prorated_charges": "",
+      "recurring_charges": "",
+      "one_time_charges": "",
+      "adjustments_and_surcharges": "",
+      "taxes_fees": "",
+      "total": ""
+    }
+  ]
+} 

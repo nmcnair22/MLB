@@ -1,0 +1,56 @@
+Extract the following information from the telecom bill document:
+
+1. Master account details:
+   - Account number (typically a numeric identifier at the top of the bill)
+   - Invoice date
+   - Total due
+
+2. For each sub-account (location):
+   - Sub-account number (look for a numeric identifier, often labeled as "Account Number" or similar, NOT the address line)
+   - Location address
+   - Line items, each with:
+      - Description
+      - Date range
+      - Prorated charges
+      - Recurring charges
+      - One time charges
+      - Adjustments and surcharges
+      - Taxes, fees
+      - Total
+   - Total due for the sub-account (only if explicitly stated in the document as a total amount for that location)
+
+Important guidelines for extraction:
+- Sub-account numbers are typically numeric or alphanumeric identifiers, not descriptive text
+- Do not use address lines or location names as sub-account numbers
+- Look for patterns like "Account #", "Account Number", or similar labels near the sub-account number
+- If a sub-account number contains a hyphen followed by a name (e.g., "102740-SCHWAN'S"), that is acceptable
+- If you cannot find a clear sub-account number, use "Unknown" rather than guessing
+
+Format the output as JSON with the structure provided below. If the total due for a sub-account is not explicitly stated, leave the "total_due" field blank. Do not calculate it from the line items.
+
+{{
+  "master_account": {{
+    "account_number": "",
+    "invoice_date": "",
+    "total_due": ""
+  }},
+  "sub_accounts": [
+    {{
+      "sub_account_number": "",
+      "location": "",
+      "line_items": [
+        {{
+          "description": "",
+          "date_range": "",
+          "prorated_charges": "",
+          "recurring_charges": "",
+          "one_time_charges": "",
+          "adjustments_and_surcharges": "",
+          "taxes_fees": "",
+          "total": ""
+        }}
+      ],
+      "total_due": ""
+    }}
+  ]
+}}

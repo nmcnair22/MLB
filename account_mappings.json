@@ -1,0 +1,24 @@
+{
+  "accounts": [
+    {
+      "account_number": "123456789",
+      "bill_type": "SLB",
+      "status": "ok"
+    },
+    {
+      "account_number": "987654321",
+      "bill_type": "MLB",
+      "status": "ok"
+    },
+    {
+      "account_number": "555555555",
+      "bill_type": "SLB",
+      "status": "audit"
+    },
+    {
+      "account_number": "111222333",
+      "bill_type": "MLB",
+      "status": "audit"
+    }
+  ]
+} 

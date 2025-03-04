@@ -1,0 +1,3163 @@
+{
+  "master_account": {
+    "account_number": "099473401",
+    "invoice_date": "08/01/24",
+    "total_due": "$9,745.80"
+  },
+  "sub_accounts": [
+    {
+      "sub_account_number": "101690301",
+      "location": "1000 E 41ST ST, APT 300, AUSTIN, TX 78751",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.63",
+          "taxes_fees": "$0.63",
+          "total": "$0.63"
+        }
+      ],
+      "total_due": "$120.61"
+    },
+    {
+      "sub_account_number": "108052001",
+      "location": "1000 W WEST COVINA PKWY, APT 210, WEST COVINA, CA 91790",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "101291701",
+      "location": "1035 NE 6TH ST, GRANTS PASS, OR 97526",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "101288101",
+      "location": "10500 ULMERTON RD, APT 210, LARGO, FL 33771",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "106024701",
+      "location": "1051 PORT MALABAR BLVD, APT K7, PALM BAY, FL 32905",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$119.98"
+    },
+    {
+      "sub_account_number": "01925801",
+      "location": "11152 SPRING HILL DR, APT L9, SPRING HILL, FL 34609",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "105961201",
+      "location": "11398 BANDERA RD, APT 106, SAN ANTONIO, TX 78250",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "101884701",
+      "location": "117 LOUIS HENNA BLVD, APT B230, ROUND ROCK, TX 78664",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "10593130",
+      "location": "118 MOUNT CALVARY, APT 1, SAN ANTONIO, TX 78209",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "105966401",
+      "location": "1218 SW MILITARY DR, APT G, SAN ANTONIO, TX 78221",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.63",
+          "total": "$0.63"
+        }
+      ],
+      "total_due": "$120.61"
+    },
+    {
+      "sub_account_number": "101291401",
+      "location": "1220 N Columbia Center Blvd, Apt 205, Kennewick, WA 99336",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "101911501",
+      "location": "12710 W INTERSTATE 10, APT 120, SAN ANTONIO, TX 78230",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "107930201",
+      "location": "1285 ALABAMA ST, REDLANDS, CA 92374",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "101292001",
+      "location": "1288 W MAIN ST, APT 108, LEWISVILLE, TX 75067",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "106022601",
+      "location": "1324 HWY, APT 1001, SATELLITE BEACH, FL 32937",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$119.98"
+    },
+    {
+      "sub_account_number": "100193201",
+      "location": "1391 COMMERCIAL WAY, APT 102, SPRING HILL, FL 34606",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "105782101",
+      "location": "140 NW JOHN JONES DR, APT B, BURLESON, TX 76028",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "101325801",
+      "location": "14347 N DALE MABRY HWY, TAMPA, FL 33618",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$119.98"
+    },
+    {
+      "sub_account_number": "102297901",
+      "location": "1601 WP BALL BLVD, APT 170, SANFORD, FL 32771",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "101171901",
+      "location": "1610 N AVALON BLVD, WILMINGTON, CA 90744",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "103404001",
+      "location": "16128 HAWTHORNE BLVD, LAWNDALE, CA 90260",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "105966701",
+      "location": "1700 E PALM VALLEY BLVD, ROUND ROCK, TX 78664",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "101577401",
+      "location": "1700 SAND LAKE RD, APT D114, ORLANDO, FL 32809",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$119.98"
+    },
+    {
+      "sub_account_number": "101172101",
+      "location": "17003 BEAR VALLEY RD, APT FC17, HESPERIA, CA 92345",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "102330201",
+      "location": "1717 AIRPORT FWY, APT 250, BEDFORD, TX 76021",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.63",
+          "total": "$0.63"
+        }
+      ],
+      "total_due": "$120.61"
+    },
+    {
+      "sub_account_number": "107882301",
+      "location": "1720 N CENTRAL EXPY, APT 130, MCKINNEY, TX 75070",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "105961301",
+      "location": "17244 INTERSTATE 35 N, APT 5, SCHERTZ, TX 78154",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "107867601",
+      "location": "1770 N WICKHAM RD, APT 820B2, MELBOURNE, FL 32935",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "1013",
+      "location": "18121 CHATSWORTH ST, GRANADA HILLS, CA 91344",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "101722401",
+      "location": "18633 BROOKHURST ST, APT D114, FOUNTAIN VALLEY, CA 92708",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$119.98"
+    },
+    {
+      "sub_account_number": "108530101",
+      "location": "18801 LIMESTONE COMMERCIAL DR, APT 400, PFLUGERVILLE, TX 78660",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet 2 @",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$239.98",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$239.98"
+        },
+        {
+          "description": "Spectrum Internet Discount 2 @",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-40.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-40.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$1.06",
+          "total": "$1.06"
+        }
+      ],
+      "total_due": "$201.04"
+    },
+    {
+      "sub_account_number": "108281101",
+      "location": "19361 SATICOY ST, RESEDA, CA 91335",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "101378701",
+      "location": "204 CENTRAL EXPY S, APT 59, ALLEN, TX 75013",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.52",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "101173001",
+      "location": "2094 GULF TO BAY BLVD, APT 101, CLEARWATER, FL 33765",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "101138801",
+      "location": "21025 US HIGHWAY 281 N, SAN ANTONIO, TX 78258",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "102451801",
+      "location": "2111 N JACKSON ST, APT A45, TULLAHOMA, TN 37388",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "106059501",
+      "location": "217 E FM 544 C309, APT C309, MURPHY, TX 75094",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "105637601",
+      "location": "21714 PIONEER BLVD, APT 106, HAWAIIAN GARDENS, CA 90716",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$119.98"
+    },
+    {
+      "sub_account_number": "101528801",
+      "location": "2306 GREENCREST BLVD, ROCKWALL, TX 75087",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "105925001",
+      "location": "25102 BROOKPARK RD, APT 1010, NORTH OLMSTED, OH 44070",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "105961101",
+      "location": "2511 TRIMMIER RD, APT 170, KILLEEN, TX 76542",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "101288401",
+      "location": "27066 US HIGHWAY 19 N 495, APT 495, CLEARWATER, FL 33761",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "105867401",
+      "location": "2721 STATE HIGHWAY 121, APT 300, EULESS, TX 76039",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "106027801",
+      "location": "290 N HILL AVE, PASADENA, CA 91106",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "101288201",
+      "location": "324 E LAKE RD, APT 650, PALM HARBOR, FL 34685",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "100849101",
+      "location": "3383 LONG BEACH BLVD, LONG BEACH, CA 90807",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "099939601",
+      "location": "340 OLD SAN ANTONIO RD, APT 140, BUDA, TX 78610",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.63",
+          "total": "$0.63"
+        }
+      ],
+      "total_due": "$120.61"
+    },
+    {
+      "sub_account_number": "104735501",
+      "location": "3501 TOWNE CROSSING BLVD, APT 300, MESQUITE, TX 75150",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "109837501",
+      "location": "3516 PRESTON RD, APT 600, PLANO, TX 75093-8641",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "102294201",
+      "location": "36 FIESTA LN, APT 109, MIAMISBURG, OH 45342",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "106021901",
+      "location": "3611 1ST ST E, BRADENTON, FL 34208",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "108209501",
+      "location": "3635 E 1ST ST, LOS ANGELES, CA 90063",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "101139001",
+      "location": "3800 S NEW BRAUNFELS AVE, SAN ANTONIO, TX 78223",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "099927901",
+      "location": "3902 E US HIGHWAY 377 APT 100, GRANBURY, TX 76049",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.63",
+          "total": "$0.63"
+        }
+      ],
+      "total_due": "$120.61"
+    },
+    {
+      "sub_account_number": "117497201",
+      "location": "39345 10TH STREET W 120, APT 120, PALMDALE, CA 93551",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$129.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$129.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-30.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-30.00"
+        }
+      ],
+      "total_due": "$119.98"
+    },
+    {
+      "sub_account_number": "105925301",
+      "location": "401 E WHITESTONE BLVD, APT 105, CEDAR PARK, TX 78613",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$100.51"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "105742801",
+      "location": "420 E PLEASANT RUN RD, APT E, CEDAR HILL, TX 75104",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "105675801",
+      "location": "42250 JACKSON ST, INDIO, CA 92203",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$119.98"
+    },
+    {
+      "sub_account_number": "101751601",
+      "location": "430 W LOOP 1604 N, SAN ANTONIO, TX 78251",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "10576850",
+      "location": "4305 LAKEVIEW PKWY, ROWLETT, TX 75088",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "101382601",
+      "location": "4400 FREDERICKSBURG RD, SAN ANTONIO, TX 78201",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$119.99",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "101173101",
+      "location": "4639 SUNRAY DR, HOLIDAY, FL 34690",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "101370701",
+      "location": "4785 LEAVITT RD, APT 103, LORAIN, OH 44053",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "105925201",
+      "location": "500 CANYON RIDGE DR, APT 120, AUSTIN, TX 78753",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.52",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "099474201",
+      "location": "5000 W SLAUGHTER LN, APT 203, AUSTIN, TX 78749",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.63",
+          "total": "$0.63"
+        }
+      ],
+      "total_due": "$120.61"
+    },
+    {
+      "sub_account_number": "107885301",
+      "location": "5404 PRESTON RD, FRISCO, TX 75034",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "099585101",
+      "location": "5510 S IH 35 300, APT 300, AUSTIN, TX 78745",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.63",
+          "total": "$0.63"
+        }
+      ],
+      "total_due": "$120.61"
+    },
+    {
+      "sub_account_number": "099797401",
+      "location": "5601 BRODIE LN, APT 1325, SUNSET VALLEY, TX 78745",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.63",
+          "total": "$0.63"
+        }
+      ],
+      "total_due": "$120.61"
+    },
+    {
+      "sub_account_number": "101525401",
+      "location": "5761 US HWY APT F1, CASSELBERRY, FL 32707",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "106020201",
+      "location": "5841 NW LOOP 410 APT L21C, SAN ANTONIO, TX 78238",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "101382701",
+      "location": "594 W INTERSTATE 20 APT 100, GRAND PRAIRIE, TX 75052",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "106049601",
+      "location": "6040 WILMINGTON PIKE, CENTERVILLE, OH 45459",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "105960901",
+      "location": "6188 CHAMBERSBURG RD, HUBER HEIGHTS, OH 45424",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "101172901",
+      "location": "6411 W WATERS AVE, TAMPA, FL 33634",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$129.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$129.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-30.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-30.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "113368201",
+      "location": "6455 HILLTOP DR, APT 152, NORTH RICHLAND HILLS, TX 76180",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.63",
+          "total": "$0.63"
+        }
+      ],
+      "total_due": "$120.61"
+    },
+    {
+      "sub_account_number": "101380501",
+      "location": "6531 FM 78, APT 105, SAN ANTONIO, TX 78244",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$100.51"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "106032501",
+      "location": "6628 LAKE WORTH BLVD, APT D, LAKE WORTH, TX 76135",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$100.51"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "101266901",
+      "location": "667 CHESTNUT COMMONS DR, ELYRIA, OH 44035",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$99.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "105890901",
+      "location": "7002 GUNN HWY, APT A, TAMPA, FL 33625",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$99.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "099473501",
+      "location": "7040 N MESA ST, APT A, EL PASO, TX 79912",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.63",
+          "total": "$0.63"
+        }
+      ],
+      "total_due": "$120.61"
+    },
+    {
+      "sub_account_number": "099530901",
+      "location": "717 HIGHWAY 71 W, APT 300, BASTROP, TX 78602",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.63",
+          "total": "$0.63"
+        }
+      ],
+      "total_due": "$120.61"
+    },
+    {
+      "sub_account_number": "101227001",
+      "location": "7403 OCONNOR DR, ROUND ROCK, TX 78681",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "101173301",
+      "location": "745 W OSCEOLA PKWY, APT 3, KISSIMMEE, FL 34741",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "105925101",
+      "location": "7860 CULEBRA RD, SAN ANTONIO, TX 78251",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "102087801",
+      "location": "8106 AGORA PKWY, SELMA, TX 78154",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "105705601",
+      "location": "8502 VILLAGE DR, SAN ANTONIO, TX 78217",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.63",
+          "total": "$0.63"
+        }
+      ],
+      "total_due": "$120.61"
+    },
+    {
+      "sub_account_number": "105752001",
+      "location": "8528 DAVIS BLVD, NORTH RICHLAND HILLS, TX, 76182",
+      "line_items": [
+        {
+          "description": "1 Static IP",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$19.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$19.99"
+        },
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.63",
+          "total": "$0.63"
+        }
+      ],
+      "total_due": "$120.61"
+    },
+    {
+      "sub_account_number": "105818301",
+      "location": "895 N HIGHWAY 77, APT E, WAXAHACHIE, TX 75165",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "101267801",
+      "location": "9161 MENTOR AVE, MENTOR, OH 44060",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "101842801",
+      "location": "9440 GARLAND RD, APT 230, DALLAS, TX 75218",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        },
+        {
+          "description": "State Cost Recovery Fee",
+          "date_range": "",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$0.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.52",
+          "total": "$0.52"
+        }
+      ],
+      "total_due": "$100.51"
+    },
+    {
+      "sub_account_number": "106023801",
+      "location": "9682 US HIGHWAY 19, PORT RICHEY, FL 34668",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$119.99",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "$0.00",
+          "recurring_charges": "$-20.00",
+          "one_time_charges": "$0.00",
+          "adjustments_and_surcharges": "$0.00",
+          "taxes_fees": "$0.00",
+          "total": "$-20.00"
+        }
+      ],
+      "total_due": "$99.99"
+    },
+    {
+      "sub_account_number": "",
+      "location": "9918 ATLANTIC AVE, SOUTH GATE, CA 90280",
+      "line_items": [
+        {
+          "description": "Spectrum Business Internet",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "0.00",
+          "recurring_charges": "119.99",
+          "one_time_charges": "0.00",
+          "adjustments_and_surcharges": "0.00",
+          "taxes_fees": "0.00",
+          "total": "119.99"
+        },
+        {
+          "description": "Spectrum Internet Discount",
+          "date_range": "08/01-08/31",
+          "prorated_charges": "0.00",
+          "recurring_charges": "-20.00",
+          "one_time_charges": "0.00",
+          "adjustments_and_surcharges": "0.00",
+          "taxes_fees": "0.00",
+          "total": "-20.00"
+        }
+      ],
+      "total_due": "99.99"
+    }
+  ]
+}

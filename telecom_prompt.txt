@@ -1,0 +1,49 @@
+Extract the following information from the telecom bill document:
+
+1. Master account details:
+   - Account number
+   - Invoice date
+   - Total due
+
+2. For each sub-account (location):
+   - Sub-account number
+   - Location address
+   - Line items, each with:
+      - Description
+      - Date range
+      - Prorated charges
+      - Recurring charges
+      - One time charges
+      - Adjustments and surcharges
+      - Taxes, fees
+      - Total
+   - Total due for the sub-account (only if explicitly stated in the document as a total amount for that location)
+
+Format the output as JSON with the structure provided below. If the total due for a sub-account is not explicitly stated, leave the "total_due" field blank. Do not calculate it from the line items.
+
+{{
+  "master_account": {{
+    "account_number": "",
+    "invoice_date": "",
+    "total_due": ""
+  }},
+  "sub_accounts": [
+    {{
+      "sub_account_number": "",
+      "location": "",
+      "line_items": [
+        {{
+          "description": "",
+          "date_range": "",
+          "prorated_charges": "",
+          "recurring_charges": "",
+          "one_time_charges": "",
+          "adjustments_and_surcharges": "",
+          "taxes_fees": "",
+          "total": ""
+        }}
+      ],
+      "total_due": ""
+    }}
+  ]
+}}

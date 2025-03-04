@@ -1,0 +1,89 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Bill Processing Prototype Plan
+
+## Project Overview
+This project is a Python prototype for processing telecom bills, supporting both single-location bills (SLB) and multi-location bills (MLB). The pipeline extracts data from PDF bills using Azure Document Intelligence, determines the bill type, processes the data with OpenAI, validates it, and archives the results. It builds on an existing `MLB_process.py` script, expanding to include SLB processing, validation, and archiving.
+
+### Goals
+- Extract structured data from PDF telecom bills.
+- Support both SLB and MLB bill types.
+- Validate extracted data for accuracy and completeness.
+- Archive bills and data based on validation outcomes.
+
+## Directory Structure
+- `data/`: Input and output files.
+  - `documents/`: Input PDF bills (e.g., `test_bill_*.pdf`).
+  - `archive/`: Successfully processed bills.
+  - `audit/`: Bills failing validation.
+  - `output/`: Extracted JSON data.
+- `prompts/`: OpenAI prompt files.
+  - `slb_prompt.txt`: For SLB extraction.
+  - `mlb_prompt.txt`: For MLB extraction (moved from `telecom_prompt.txt`).
+  - `validation_prompt.txt`: For data validation.
+- `src/`: Python source code.
+  - `analyze.py`: Analyzes PDFs with Azure Document Intelligence.
+  - `bill_type.py`: Determines bill type using `account_mappings.json`.
+  - `validate.py`: Validates data with OpenAI.
+  - `archive.py`: Archives bills and data.
+  - `process_slb.py`: Processes SLB bills.
+  - `process_mlb.py`: Processes MLB bills (refactored from `MLB_process.py`).
+  - `main.py`: Orchestrates the pipeline.
+- `account_mappings.json`: Mock database for bill type mapping.
+- `.env`: Stores Azure and OpenAI credentials.
+- `requirements.txt`: Lists dependencies.
+
+## AI Coding Guidelines
+- **Language**: Use Python 3.9+ for all scripts.
+- **Style**: Follow PEP 8 conventions (e.g., 4-space indentation, snake_case for variables).
+- **Error Handling**: Include try-except blocks in all functions interacting with external services (Azure, OpenAI, file I/O).
+- **Docstrings**: Add Google-style docstrings to all functions and modules.
+- **Modularity**: Keep functions focused on a single task (e.g., `analyze_document()` only handles PDF analysis).
+- **Imports**: Use absolute imports within `src/` (e.g., `from src.analyze import analyze_document`).
+
+## Component Instructions
+### src/analyze.py
+- Use Azure Document Intelligence’s `prebuilt-invoice` model.
+- Validate input: Check file exists, is a PDF, and is non-empty.
+- Return a dict with `content` (raw text) and `fields` (structured data).
+
+### src/bill_type.py
+- Clean `CustomerId` from analysis output.
+- Query `account_mappings.json` to return `{"bill_type": "SLB" | "MLB", "status": "ok" | "audit"}`.
+
+### src/validate.py
+- Use OpenAI with `validation_prompt.txt`.
+- Check for required fields (e.g., total due) and consistency.
+- Return `{"valid": true/false, "errors": []}`.
+
+### src/archive.py
+- Move PDFs to `data/archive/` if valid, `data/audit/` if invalid.
+- Save JSON data to `data/output/` with filename `<original_name>_output.json`.
+
+### src/process_slb.py
+- Use OpenAI with `slb_prompt.txt`.
+- Extract fields like account number, total due, and line items into JSON.
+
+### src/process_mlb.py
+- Refactor from `MLB_process.py`.
+- Chunk content by "Service Location X of Y".
+- Use OpenAI with `mlb_prompt.txt` to extract master and sub-account details.
+
+### src/main.py
+- List PDFs in `data/documents/` for user selection.
+- Run pipeline: analyze → bill type → process → validate → archive.
+- Log progress and errors using `print()` statements.
+
+## Setup Instructions
+- Install dependencies: `pip install -r requirements.txt`.
+- Create `.env` with Azure and OpenAI credentials.
+- Move `telecom_prompt.txt` to `prompts/mlb_prompt.txt`.
+- Place PDFs in `data/documents/`.
+- Run: `python src/main.py`.
+
+## Refactoring Notes
+- Rename and adapt `MLB_process.py` to `process_mlb.py`.
+- Ensure JSON outputs go to `data/output/`.

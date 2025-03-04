@@ -1,0 +1,32 @@
+Validate the following telecom bill data for accuracy and completeness. Check for:
+
+1. Required fields:
+   - Account number(s) must be present and in the correct format (alphanumeric)
+   - Invoice date must be present and in a valid date format
+   - Total due must be present and in a valid currency format
+
+2. Consistency checks:
+   - For MLB bills: The master account total should be consistent with the sum of sub-account totals (if both are provided)
+   - Line item totals should be consistent with their component charges
+   - All currency values should be properly formatted (e.g., "$123.45")
+
+3. Completeness:
+   - All required fields should be populated
+   - No missing line items or accounts
+
+Analyze the provided JSON data and return a validation result in this format:
+{
+  "valid": true/false,
+  "errors": [
+    {
+      "field": "path.to.field",
+      "error": "Description of the error"
+    }
+  ],
+  "warnings": [
+    {
+      "field": "path.to.field",
+      "warning": "Description of the warning"
+    }
+  ]
+} 
