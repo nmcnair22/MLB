@@ -10,6 +10,7 @@ import json
 import shutil
 import logging
 from typing import Dict, Any, Optional
+from .utils import serialize_dates  # Import from utils.py instead of main.py
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -19,7 +20,7 @@ def archive_bill(
     document_path: str,
     data: Dict[str, Any],
     validation_result: Dict[str, Any],
-    bill_type: str,
+    bill_type: Optional[str],
     archive_dir: str = "data/archive",
     audit_dir: str = "data/audit",
     output_dir: str = "data/output"
@@ -31,7 +32,7 @@ def archive_bill(
         document_path: Path to the original PDF document.
         data: The extracted bill data.
         validation_result: The validation result.
-        bill_type: The type of bill (SLB or MLB).
+        bill_type: The type of bill (SLB, MLB, or None if unknown).
         archive_dir: Directory for successfully processed bills.
         audit_dir: Directory for bills failing validation.
         output_dir: Directory for extracted JSON data.
@@ -44,7 +45,7 @@ def archive_bill(
         Exception: For other errors during archiving.
     """
     try:
-        logger.info(f"Archiving {bill_type} bill: {document_path}")
+        logger.info(f"Archiving {bill_type or 'unknown'} bill: {document_path}")
         
         # Check if document exists
         if not os.path.exists(document_path):
@@ -71,10 +72,17 @@ def archive_bill(
         shutil.copy2(document_path, target_document_path)
         logger.info(f"Document copied to {target_document_path}")
         
-        # Save the extracted data to the output directory
+        # Prepare combined data for JSON output
+        archive_data = {
+            "extracted_data": data,
+            "validation_result": validation_result,
+            "bill_type": bill_type
+        }
+        
+        # Save the combined data to the output directory with serialization
         with open(output_json_path, 'w') as f:
-            json.dump(data, f, indent=2)
-        logger.info(f"Extracted data saved to {output_json_path}")
+            json.dump(serialize_dates(archive_data), f, indent=2)
+        logger.info(f"Data saved to {output_json_path}")
         
         # Remove the original document if successfully archived
         if os.path.exists(target_document_path):
@@ -134,4 +142,4 @@ if __name__ == "__main__":
         print(f"Document archived to: {archive_result['document']}")
         print(f"Data saved to: {archive_result['data']}")
     except Exception as e:
-        print(f"Error: {str(e)}") 
+        print(f"Error: {str(e)}")
